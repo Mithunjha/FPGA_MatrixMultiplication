@@ -1,0 +1,174 @@
+# Reading D:/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do single_core_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:14 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/core.v 
+# -- Compiling module core
+# 
+# Top level modules:
+# 	core
+# End time: 13:11:14 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/bus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:14 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/bus.v 
+# -- Compiling module bus
+# 
+# Top level modules:
+# 	bus
+# End time: 13:11:14 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:14 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 13:11:14 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/instr_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:15 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/instr_memory.v 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 13:11:15 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:15 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/control_unit.v 
+# -- Compiling module control_unit
+# ** Warning: F:/Single_Core/Single_Core/control_unit.v(359): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	control_unit
+# End time: 13:11:15 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/reginc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:15 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/reginc.v 
+# -- Compiling module reginc
+# 
+# Top level modules:
+# 	reginc
+# End time: 13:11:15 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:15 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 13:11:15 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/acc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:15 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/acc.v 
+# -- Compiling module acc
+# 
+# Top level modules:
+# 	acc
+# End time: 13:11:16 on Jul 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/DRAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:16 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/DRAM.v 
+# -- Compiling module DRAM
+# 
+# Top level modules:
+# 	DRAM
+# End time: 13:11:16 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/single_core_processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:16 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/single_core_processor.v 
+# -- Compiling module single_core_processor
+# 
+# Top level modules:
+# 	single_core_processor
+# End time: 13:11:16 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+F:/Single_Core/Single_Core {F:/Single_Core/Single_Core/single_core_processor_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:16 on Jul 05,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+F:/Single_Core/Single_Core" F:/Single_Core/Single_Core/single_core_processor_tb.sv 
+# -- Compiling module single_core_processor_tb
+# 
+# Top level modules:
+# 	single_core_processor_tb
+# End time: 13:11:16 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  single_core_processor_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" single_core_processor_tb 
+# Start time: 13:11:17 on Jul 05,2021
+# Loading sv_std.std
+# Loading work.single_core_processor_tb
+# Loading work.single_core_processor
+# Loading work.core
+# Loading work.register
+# Loading work.reginc
+# Loading work.acc
+# Loading work.alu
+# Loading work.bus
+# Loading work.control_unit
+# Loading work.instr_memory
+# Loading work.DRAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/core.v(53): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: F:/Single_Core/Single_Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/core1/dr File: F:/Single_Core/Single_Core/register.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/core.v(57): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: F:/Single_Core/Single_Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/core1/rn File: F:/Single_Core/Single_Core/register.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/core.v(58): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: F:/Single_Core/Single_Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/core1/rp File: F:/Single_Core/Single_Core/register.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: F:/Single_Core/Single_Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/core1/rc File: F:/Single_Core/Single_Core/register.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: F:/Single_Core/Single_Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/core1/rr File: F:/Single_Core/Single_Core/register.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/single_core_processor.v(26): [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: F:/Single_Core/Single_Core/DRAM.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/DRAM File: F:/Single_Core/Single_Core/DRAM.v
+# ** Warning: (vsim-3015) F:/Single_Core/Single_Core/single_core_processor.v(26): [PCDPC] - Port size (8) does not match connection size (16) for port 'data'. The port definition is at: F:/Single_Core/Single_Core/DRAM.v(42).
+#    Time: 0 ps  Iteration: 0  Instance: /single_core_processor_tb/processor/DRAM File: F:/Single_Core/Single_Core/DRAM.v
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+mem save -o F:/Single_Core/Single_Core/simulation/modelsim/output_data.mem -f mti -data unsigned -addr decimal /single_core_processor_tb/processor/DRAM/altsyncram_component/m_default/altsyncram_inst/mem_data

@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Single_Core/Single_Core/simulation/modelsim
+vacc
+Z1 !s110 1625470876
+!i10b 1
+!s100 ;>mBc:MIj3PzQX43@@;j>1
+IMS2eg<[;dJ`W<h1^fVPZc2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1625385657
+8F:/Single_Core/Single_Core/acc.v
+FF:/Single_Core/Single_Core/acc.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1625470875.000000
+!s107 F:/Single_Core/Single_Core/acc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/acc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+F:/Single_Core/Single_Core
+Z8 tCvgOpt 0
+valu
+Z9 !s110 1625470875
+!i10b 1
+!s100 F8PD2o<QP:H_4MH3E_l=V3
+IdMK^l`D6@d5EP8L?SfdD<3
+R2
+R0
+w1625407206
+8F:/Single_Core/Single_Core/alu.v
+FF:/Single_Core/Single_Core/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Single_Core/Single_Core/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/alu.v|
+!i113 1
+R6
+R7
+R8
+vbus
+Z10 !s110 1625470874
+!i10b 1
+!s100 a0Dj>Y7Xgo1cURnK5I5ST0
+IJakJ8Y<]P;Ao;mV=;MCnR3
+R2
+R0
+w1625398662
+8F:/Single_Core/Single_Core/bus.v
+FF:/Single_Core/Single_Core/bus.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1625470874.000000
+!s107 F:/Single_Core/Single_Core/bus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/bus.v|
+!i113 1
+R6
+R7
+R8
+vcontrol_unit
+R9
+!i10b 1
+!s100 B0GYFF9WBP8:_:207U8o;1
+IGfM9hon9ei=<5[f_AU^=<0
+R2
+R0
+w1625470816
+8F:/Single_Core/Single_Core/control_unit.v
+FF:/Single_Core/Single_Core/control_unit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Single_Core/Single_Core/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/control_unit.v|
+!i113 1
+R6
+R7
+R8
+vcore
+R10
+!i10b 1
+!s100 ;Ed2ePoT^cPX?8eUET=@]0
+I`QAMZg06C3WkNzUKZoecT0
+R2
+R0
+w1625469747
+8F:/Single_Core/Single_Core/core.v
+FF:/Single_Core/Single_Core/core.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 F:/Single_Core/Single_Core/core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/core.v|
+!i113 1
+R6
+R7
+R8
+vDRAM
+R1
+!i10b 1
+!s100 mWL1fDf<Xaf8?ojo7f@J73
+IzI3@MWITWoUNAI2z:>7jR0
+R2
+R0
+R3
+8F:/Single_Core/Single_Core/DRAM.v
+FF:/Single_Core/Single_Core/DRAM.v
+L0 39
+R4
+r1
+!s85 0
+31
+Z12 !s108 1625470876.000000
+!s107 F:/Single_Core/Single_Core/DRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/DRAM.v|
+!i113 1
+R6
+R7
+R8
+n@d@r@a@m
+vinstr_memory
+R9
+!i10b 1
+!s100 [S<HQ]lVFB?n31<f]PzZ[0
+I6`jV<ofzja]=Fz0Y7SfAj2
+R2
+R0
+w1625456620
+8F:/Single_Core/Single_Core/instr_memory.v
+FF:/Single_Core/Single_Core/instr_memory.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Single_Core/Single_Core/instr_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/instr_memory.v|
+!i113 1
+R6
+R7
+R8
+vreginc
+R9
+!i10b 1
+!s100 Ok6IGh98l4]n16c=;8aoP0
+I9GJnz0P7VUZ_Sijfg=i``3
+R2
+R0
+w1625385658
+8F:/Single_Core/Single_Core/reginc.v
+FF:/Single_Core/Single_Core/reginc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Single_Core/Single_Core/reginc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/reginc.v|
+!i113 1
+R6
+R7
+R8
+vregister
+R10
+!i10b 1
+!s100 F`S7PiIbP]X37nNM8dQoU0
+I?n301g>A;=4QE:Kz?b>BE2
+R2
+R0
+R3
+8F:/Single_Core/Single_Core/register.v
+FF:/Single_Core/Single_Core/register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 F:/Single_Core/Single_Core/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/register.v|
+!i113 1
+R6
+R7
+R8
+vsingle_core_processor
+R1
+!i10b 1
+!s100 cCQ1nahdkT=H]9ngd?E9e0
+IgbE7CfDHGM3e7eWJNo>6W1
+R2
+R0
+w1625411943
+8F:/Single_Core/Single_Core/single_core_processor.v
+FF:/Single_Core/Single_Core/single_core_processor.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 F:/Single_Core/Single_Core/single_core_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/single_core_processor.v|
+!i113 1
+R6
+R7
+R8
+vsingle_core_processor_tb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 j`mZ4Ja7SA1KLjS;mJGji1
+IQdR`<3EdzPm;HT5U:e:1A1
+R2
+!s105 single_core_processor_tb_sv_unit
+S1
+R0
+w1625387253
+8F:/Single_Core/Single_Core/single_core_processor_tb.sv
+FF:/Single_Core/Single_Core/single_core_processor_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R12
+!s107 F:/Single_Core/Single_Core/single_core_processor_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+F:/Single_Core/Single_Core|F:/Single_Core/Single_Core/single_core_processor_tb.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+F:/Single_Core/Single_Core
+R8
