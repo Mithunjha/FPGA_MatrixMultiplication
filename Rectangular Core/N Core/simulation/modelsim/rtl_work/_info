@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/simulation/modelsim
+vacc
+Z1 !s110 1626317892
+!i10b 1
+!s100 bb3cna7GgAH@>LCJTMJn@0
+I4^AmkiN5lJ9TljlgT^z;V2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625599468
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1626317892.000000
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core}
+Z7 tCvgOpt 0
+valu
+Z8 !s110 1626317891
+!i10b 1
+!s100 kP0YzFfFA`;o4m;>C67bS2
+IiPJ4iI6U7[b17`klf03`Q3
+R2
+R0
+w1626317640
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1626317891.000000
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v|
+!i113 1
+R5
+R6
+R7
+vbus
+R8
+!i10b 1
+!s100 QLd0jK_mlPk0I`lWzagkz1
+I1Dk5U]G5djTJIzWG`<a;`1
+R2
+R0
+w1625607194
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v|
+!i113 1
+R5
+R6
+R7
+vcontrol_unit
+R8
+!i10b 1
+!s100 XEAz^HCbTCB4_=@?j2XJ=3
+I5KkK3@29i=A8=?L15T4oH3
+R2
+R0
+w1626317694
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v|
+!i113 1
+R5
+R6
+R7
+vcore
+R8
+!i10b 1
+!s100 4FmRU0LSDZV<k^UkR4ifP1
+I=UPiPF20FllATN]7m[d:W0
+R2
+R0
+w1625608078
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v|
+!i113 1
+R5
+R6
+R7
+vDRAM
+R1
+!i10b 1
+!s100 l52ld<DQXWB`]Y^YDHH?:2
+Izi;D2=WM:?hfU@ZWzS8G;1
+R2
+R0
+w1626262110
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v|
+!i113 1
+R5
+R6
+R7
+n@d@r@a@m
+vinstr_memory
+R8
+!i10b 1
+!s100 <:jO_9lWhCkaTGikgARDe2
+IPAEl;fak[FCngf9B>=XI;2
+R2
+R0
+w1626317720
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v|
+!i113 1
+R5
+R6
+R7
+vmulti_core_processor
+R1
+!i10b 1
+!s100 2QH?1QAACLZBeBO_:n8@d3
+I[:E<JZfVAiB:lF<db4TdK0
+R2
+R0
+w1626308823
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v|
+!i113 1
+R5
+R6
+R7
+vmulti_core_processor_tb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 >1[dc_XSi2hMMPX`OM@0n3
+IAoS9GV^b5R_SPE<Vm;`hl2
+R2
+!s105 multi_core_processor_tb_sv_unit
+S1
+R0
+w1626312113
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core}
+R7
+vreginc
+R8
+!i10b 1
+!s100 Ok6IGh98l4]n16c=;8aoP0
+I?^8We=jAXh]@GW10T;`mU3
+R2
+R0
+w1625250658
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v|
+!i113 1
+R5
+R6
+R7
+vregister
+R8
+!i10b 1
+!s100 F`S7PiIbP]X37nNM8dQoU0
+I_C1Qm1CS`JlNL9^iPGGLf3
+R2
+R0
+w1625250656
+8C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+FC:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core|C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v|
+!i113 1
+R5
+R6
+R7

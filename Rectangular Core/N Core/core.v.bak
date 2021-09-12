@@ -1,0 +1,37 @@
+module core
+( 
+	input clk,
+	input [7:0] dram_out,
+	input [7:0] iram_out,
+	input status,
+	output reg dram_en,
+	output reg iram_en,
+	output [15:0] pc_out,
+	output [15:0] ar_out,
+	output [15:0] bus_out,
+	output end_process 
+);
+
+wire [2:0] alu_op;
+wire [15:0] alu_out;
+wire [15:0] regr_out ;
+wire [15:0] regr1_out ;
+wire [15:0] regr2_out ;
+wire [15:0] regr3_out ;
+wire [15:0] regr4_out ;
+wire [15:0] regr5_out ;
+wire [15:0] ac_out;
+wire [15:0] ir_out;
+wire [15:0] write_en ;
+wire [3:0] read_en;
+wire [15:0] inc_en;
+wire [15:0] mem0;
+wire [15:0] mem1;
+wire [15:0] mem2;
+wire [15:0] mem3;
+wire [15:0] mem4;
+wire [15:0] mem5;
+wire [15:0] mem6;
+wire [15:0] mem7;
+wire [15:0] mem8;
+wire [15:0] z ;
