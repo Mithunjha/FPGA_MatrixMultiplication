@@ -1,0 +1,536 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do single_core_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v 
+# -- Compiling module core
+# 
+# Top level modules:
+# 	core
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/bus.v 
+# -- Compiling module bus
+# 
+# Top level modules:
+# 	bus
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/instr_memory.v 
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v 
+# -- Compiling module control_unit
+# ** Warning: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/control_unit.v(364): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	control_unit
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/reginc.v 
+# -- Compiling module reginc
+# 
+# Top level modules:
+# 	reginc
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:11 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 08:28:11 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:12 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/acc.v 
+# -- Compiling module acc
+# 
+# Top level modules:
+# 	acc
+# End time: 08:28:12 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:12 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v 
+# -- Compiling module multi_core_processor
+# 
+# Top level modules:
+# 	multi_core_processor
+# End time: 08:28:12 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:12 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v 
+# -- Compiling module DRAM
+# 
+# Top level modules:
+# 	DRAM
+# End time: 08:28:12 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Vinith\ Kugathasan/OneDrive/Desktop/Rectangular\ Core/N\ Core {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:28:12 on Jul 15,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core" C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv 
+# -- Compiling module multi_core_processor_tb
+# 
+# Top level modules:
+# 	multi_core_processor_tb
+# End time: 08:28:12 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  multi_core_processor_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" multi_core_processor_tb 
+# Start time: 08:28:13 on Jul 15,2021
+# Loading sv_std.std
+# Loading work.multi_core_processor_tb
+# Loading work.multi_core_processor
+# Loading work.core
+# Loading work.register
+# Loading work.reginc
+# Loading work.acc
+# Loading work.alu
+# Loading work.bus
+# Loading work.control_unit
+# Loading work.instr_memory
+# Loading work.DRAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(23): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(55): [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/DRAM File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: MithunjhaAnandakumar  Hostname: DESKTOP-J9LNDPA  ProcessID: 11460
+#           Attempting to use alternate WLF file "./wlfte430ym".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte430ym
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv(47)
+#    Time: 18530 ns  Iteration: 1  Instance: /multi_core_processor_tb
+# Break in Module multi_core_processor_tb at C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv line 47
+mem save -o {C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/simulation/modelsim/output_data.mem} -f mti -data unsigned -addr decimal /multi_core_processor_tb/processor/DRAM/altsyncram_component/m_default/altsyncram_inst/mem_data
+add wave -position end sim:/multi_core_processor_tb/processor/core1/r/*
+add wave -position end sim:/multi_core_processor_tb/processor/core1/alu/*
+add wave -position 5 sim:/multi_core_processor_tb/processor/core1/ac/*
+restart
+restart
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(23): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(55): [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/DRAM File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+run
+# ** Note: $stop    : C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv(47)
+#    Time: 18530 ns  Iteration: 1  Instance: /multi_core_processor_tb
+# Break in Module multi_core_processor_tb at C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv line 47
+add wave -position 4 sim:/multi_core_processor_tb/processor/core1/pc/*
+add wave -position end sim:/multi_core_processor_tb/processor/core1/*
+add wave -position end sim:/multi_core_processor_tb/processor/core1/*
+restart
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(23): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(55): [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/DRAM File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+run
+# ** Note: $stop    : C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv(47)
+#    Time: 18530 ns  Iteration: 1  Instance: /multi_core_processor_tb
+# Break in Module multi_core_processor_tb at C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv line 47
+run
+# ** Note: $stop    : C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv(47)
+#    Time: 18550 ns  Iteration: 1  Instance: /multi_core_processor_tb
+# Break in Module multi_core_processor_tb at C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv line 47
+restart
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(23): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/core1/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[0]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[1]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3017) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Too few port connections. Expected 11, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [PCDPC] - Port size (16) does not match connection size (8) for port 'bus_out'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'dram_wrEn'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'read_IRAM'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'pc_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'ar_out'.
+# ** Warning: (vsim-3722) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(30): [TFMPC] - Missing connection for port 'end_process'.
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(55): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/dr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(59): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rn File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(60): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol1 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(61): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rcol2 File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(62): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rp File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(63): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rc File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/core.v(64): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/processor[2]/coren/rr File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/register.v
+# ** Warning: (vsim-3015) C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor.v(55): [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /multi_core_processor_tb/processor/DRAM File: C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/DRAM.v
+run
+# ** Note: $stop    : C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv(47)
+#    Time: 18530 ns  Iteration: 1  Instance: /multi_core_processor_tb
+# Break in Module multi_core_processor_tb at C:/Users/Vinith Kugathasan/OneDrive/Desktop/Rectangular Core/N Core/multi_core_processor_tb.sv line 47
+# End time: 09:13:53 on Jul 15,2021, Elapsed time: 0:45:40
+# Errors: 0, Warnings: 206

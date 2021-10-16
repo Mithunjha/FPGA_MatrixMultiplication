@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/core.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/bus.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/register.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/control_unit.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/reginc.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/alu.v}
+vlog -vlog01compat -work work +incdir+E:/Semester\ 6/FPGA/Single_Core {E:/Semester 6/FPGA/Single_Core/acc.v}
+

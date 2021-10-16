@@ -1,0 +1,14 @@
+module single_core_processor
+
+( 
+	input clk,
+	input status,
+	input rst,
+	output reg dram_wrEn,
+	
+);
+
+
+
+
+endmodule
